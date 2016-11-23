@@ -6,10 +6,10 @@
 #define RELAY           12                                   // (Don't Change for Sonoff)
 #define LED             13                                   // (Don't Change for Sonoff)
 
-#define MQTT_CLIENT     "Sonoff_Living_Room_v1.0p"           // mqtt client_id (Must be unique for each Sonoff)
+#define MQTT_CLIENT     "christmasnodemcu"           // mqtt client_id (Must be unique for each Sonoff)
 #define MQTT_SERVER     "192.168.0.100"                      // mqtt server
 #define MQTT_PORT       1883                                 // mqtt port
-#define MQTT_TOPIC      "home/sonoff/living_room/1"          // mqtt topic (Must be unique for each Sonoff)
+#define MQTT_TOPIC      "home/christmas/nodemcu/relay"          // mqtt topic (Must be unique for each Sonoff)
 #define MQTT_USER       "user"                               // mqtt user
 #define MQTT_PASS       "pass"                               // mqtt password
 
